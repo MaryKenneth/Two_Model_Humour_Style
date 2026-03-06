@@ -72,6 +72,7 @@ pip install -r requirements.txt
 
 # References
 If you make use of the dataset or code in this repo please cite this paper:
+```bibtex
 @inproceedings{kenneth-etal-2024-two,
     title = "A Two-Model Approach for Humour Style Recognition",
     author = "Kenneth, Mary Ogbuka  and Khosmood, Foaad  and Edalat, Abbas",
@@ -82,5 +83,7 @@ If you make use of the dataset or code in this repo please cite this paper:
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.nlp4dh-1.25"
 }
+```
+
 
 
