@@ -2,6 +2,15 @@
 
 This repository contains the dataset and code implementations for the research paper titled "A Two-Model Approach for Humour Style Recognition". The research aims to automatically recognise different styles of humour, including self-enhancing, self-deprecating, affiliative, aggressive humour, and neutral (not humourous).
 
+## Reference to the Published Paper
+This repository accompanies the paper:
+
+**A Two-Model Approach for Humour Style Recognition**  
+Mary Ogbuka Kenneth, Foaad Khosmood, Abbas Edalat  
+*Proceedings of the 4th International Conference on Natural Language Processing for Digital Humanities (NLP4DH), 2024.*  
+[ACL Anthology](https://aclanthology.org/2024.nlp4dh-1.25) • [PDF](https://aclanthology.org/2024.nlp4dh-1.25.pdf)
+
+
 ## Datasets
 The dataset was compiled from various websites and labeled based on the provided definitions, tags, or categories. Each instance consists of a joke or non-humourous text, along with its corresponding style label. More details about the dataset can be found in our paper. 
 
@@ -62,5 +71,16 @@ pip install -r requirements.txt
 - Run the code for the desired model(s) by executing the corresponding Jupyter file(s).
 
 # References
-If you use this dataset or code in your research, please cite the following paper:
+If you make use of the dataset or code in this repo please cite this paper:
+@inproceedings{kenneth-etal-2024-two,
+    title = "A Two-Model Approach for Humour Style Recognition",
+    author = "Kenneth, Mary Ogbuka  and Khosmood, Foaad  and Edalat, Abbas",
+    booktitle = "Proceedings of the 4th International Conference on Natural Language Processing for Digital Humanities",
+    year = "2024",
+    pages = "259--274",
+    address = "Miami, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.nlp4dh-1.25"
+}
+
 
